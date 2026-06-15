@@ -3,24 +3,30 @@
     "userId": "user_priya_001",
     "items": [
       {
-        "productId": "prod_telma_40",
+        "productId": "prod_sinarest",
         "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
+        "addedAt": "2026-06-15T16:23:51.731Z"
       },
       {
         "productId": "prod_glycomet_500",
-        "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
+        "quantity": 2,
+        "addedAt": "2026-06-15T17:22:07.037Z"
       },
       {
-        "productId": "prod_atorlip_10",
-        "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
+        "productId": "prod_telma_40",
+        "quantity": 4,
+        "addedAt": "2026-06-15T17:29:48.580Z"
+      },
+      {
+        "productId": "prod_revital_h",
+        "quantity": 2,
+        "addedAt": "2026-06-15T17:30:05.818Z"
       }
     ],
     "attachedPrescriptionIds": [
-      "rx_moms_bp_001"
+      "rx_moms_bp_001",
+      "rx_1781532275367"
     ],
-    "updatedAt": "2026-06-15T14:21:19.629Z"
+    "updatedAt": "2026-06-15T17:30:10.617Z"
   }
 ]
