@@ -1,5 +1,36 @@
 [
   {
+    "id": "order_980699",
+    "userId": "user_priya_001",
+    "items": [
+      {
+        "productId": "prod_atorlip_10",
+        "productName": "Atorlip 10 Tablet",
+        "quantity": 1,
+        "price": 140
+      },
+      {
+        "productId": "prod_revital_h",
+        "productName": "Revital H Capsule",
+        "quantity": 2,
+        "price": 420
+      }
+    ],
+    "attachedPrescriptionIds": [
+      "rx_moms_bp_001",
+      "rx_1781532275367"
+    ],
+    "addressId": "addr_bangalore_001",
+    "bill": {
+      "itemsTotal": 980,
+      "deliveryFee": 0,
+      "discount": 50,
+      "totalPayable": 930
+    },
+    "status": "placed",
+    "placedAt": "2026-06-15T17:56:09.149Z"
+  },
+  {
     "id": "order_578857",
     "userId": "user_priya_001",
     "items": [

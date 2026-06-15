@@ -1,14 +1,16 @@
 import { NextResponse } from "next/server";
-import { readJson, writeJson, withLock } from "@/lib/storage";
-import { Prescription } from "@/lib/types";
 import { extractPrescription } from "@/lib/ai/gemini";
+
+// Persistence of the resulting prescription record moved to the client
+// (lib/mock-server) because Vercel's filesystem is read-only at runtime.
+// This route now only does the AI extraction.
 
 const MAX_IMAGE_BYTES = 5 * 1024 * 1024; // 5MB
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { imageBase64, userId = "user_priya_001" } = body;
+    const { imageBase64 } = body;
 
     if (!imageBase64 || typeof imageBase64 !== "string") {
       return NextResponse.json(
@@ -51,22 +53,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const newPrescription: Prescription = {
-      id: `rx_${Date.now()}`,
-      userId,
-      imageUrl: "", // We don't persist the actual image — only the extraction
-      extractedMedicines: extracted.medicines,
-      uploadedAt: new Date().toISOString(),
-    };
-
-    await withLock("prescriptions.json", async () => {
-      const all = await readJson<Prescription[]>("prescriptions.json");
-      all.unshift(newPrescription);
-      await writeJson("prescriptions.json", all);
-    });
-
     return NextResponse.json({
-      prescriptionId: newPrescription.id,
       extractedMedicines: extracted.medicines,
       rawText: extracted.rawText,
     });

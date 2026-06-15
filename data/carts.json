@@ -1,26 +1,8 @@
 [
   {
     "userId": "user_priya_001",
-    "items": [
-      {
-        "productId": "prod_telma_40",
-        "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
-      },
-      {
-        "productId": "prod_glycomet_500",
-        "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
-      },
-      {
-        "productId": "prod_atorlip_10",
-        "quantity": 1,
-        "addedAt": "2026-06-15T14:21:19.629Z"
-      }
-    ],
-    "attachedPrescriptionIds": [
-      "rx_moms_bp_001"
-    ],
-    "updatedAt": "2026-06-15T14:21:19.629Z"
+    "items": [],
+    "attachedPrescriptionIds": [],
+    "updatedAt": "2026-06-15T17:56:09.150Z"
   }
 ]

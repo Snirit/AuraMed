@@ -1,11 +1,15 @@
 import { NextResponse } from "next/server";
-import { readJson, writeJson, withLock } from "@/lib/storage";
-import { Prescription, Product, ExtractedMedicine } from "@/lib/types";
+import { readJson } from "@/lib/storage";
+import { Product, ExtractedMedicine } from "@/lib/types";
+
+// Persistence moved to the client (lib/mock-server). This route now only
+// resolves medicine names against the bundled product catalog so the salt
+// composition can be inferred.
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { medicineNames, userId = "user_priya_001" } = body;
+    const { medicineNames } = body;
 
     if (!Array.isArray(medicineNames) || medicineNames.length === 0) {
       return NextResponse.json(
@@ -16,7 +20,6 @@ export async function POST(request: Request) {
 
     const products = await readJson<Product[]>("products.json");
 
-    // Match each name to a product to infer composition
     const extracted: ExtractedMedicine[] = medicineNames.map((name: string) => {
       const lower = name.toLowerCase();
       const match = products.find((p) => p.name.toLowerCase().includes(lower));
@@ -30,24 +33,7 @@ export async function POST(request: Request) {
       };
     });
 
-    const newPrescription: Prescription = {
-      id: `rx_${Date.now()}`,
-      userId,
-      imageUrl: "",
-      extractedMedicines: extracted,
-      uploadedAt: new Date().toISOString(),
-    };
-
-    await withLock("prescriptions.json", async () => {
-      const all = await readJson<Prescription[]>("prescriptions.json");
-      all.unshift(newPrescription);
-      await writeJson("prescriptions.json", all);
-    });
-
-    return NextResponse.json({
-      prescriptionId: newPrescription.id,
-      extractedMedicines: extracted,
-    });
+    return NextResponse.json({ extractedMedicines: extracted });
   } catch (err: any) {
     return NextResponse.json(
       { error: err?.message || "Failed to create manual prescription", code: "INTERNAL_ERROR" },

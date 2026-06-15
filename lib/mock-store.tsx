@@ -11,8 +11,9 @@ import {
   Order,
   ExtractedMedicine,
 } from "./types";
-import { apiGet, apiPost, apiPut, apiDelete } from "./api-client";
+import { apiGet, apiPost, apiPut, apiPatch, apiDelete } from "./api-client";
 import { computeOrderStatus } from "./utils/order-status";
+import { resetSeed } from "./mock-server/store";
 
 interface MockStoreContextType {
   products: Product[];
@@ -386,13 +387,10 @@ export function MockStoreProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem("auramed_current_user", JSON.stringify(optimisticUser));
 
       try {
-        const res = await fetch("/api/user/address", {
-          method: "PATCH",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ addressId, userId: prevUser.id }),
+        const data = await apiPatch<{ user: User }>("/api/user/address", {
+          addressId,
+          userId: prevUser.id,
         });
-        if (!res.ok) throw new Error("Address update failed");
-        const data = await res.json();
         setCurrentUser(data.user);
         localStorage.setItem("auramed_current_user", JSON.stringify(data.user));
       } catch (err) {
@@ -422,6 +420,7 @@ export function MockStoreProvider({ children }: { children: React.ReactNode }) {
 
   const resetStore = useCallback(() => {
     localStorage.removeItem("auramed_ftux");
+    resetSeed();
     setIsFtuxMode(false);
     refreshAll();
   }, [refreshAll]);
