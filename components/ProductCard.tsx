@@ -56,7 +56,7 @@ export default function ProductCard({
   const isGenericHighlight = variant === "highlight-generic" && product.isGeneric;
 
   const containerClasses = [
-    "group rounded-2xl border transition-all duration-200 flex flex-col justify-between h-full shadow-xs",
+    "group relative rounded-2xl border transition-all duration-200 flex flex-col justify-between h-full shadow-xs",
     isCompact ? "p-3" : "p-4",
     isGenericHighlight
       ? "border-emerald-200 bg-gradient-to-b from-emerald-50/40 to-teal-50/20 hover:border-emerald-300 hover:shadow-md"
@@ -108,14 +108,9 @@ export default function ProductCard({
         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
           {product.manufacturer}
         </span>
-        <Link
-          href={`/product/${product.id}`}
-          className="block mt-0.5 hover:text-teal-600 transition-colors"
-        >
-          <h4 className="text-xs font-bold text-slate-900 line-clamp-1 leading-snug">
-            {product.name}
-          </h4>
-        </Link>
+        <h4 className="block mt-0.5 text-xs font-bold text-slate-900 line-clamp-1 leading-snug group-hover:text-teal-600 transition-colors">
+          {product.name}
+        </h4>
 
         {/* Composition Info */}
         <p className="text-[10px] text-slate-500 line-clamp-1 mt-1 font-medium bg-slate-50 rounded px-1.5 py-0.5 inline-block">
@@ -143,7 +138,7 @@ export default function ProductCard({
             Out of stock
           </span>
         ) : quantity > 0 ? (
-          <div className="flex items-center rounded-lg bg-teal-600 text-white shadow-sm border border-teal-600">
+          <div className="relative z-10 flex items-center rounded-lg bg-teal-600 text-white shadow-sm border border-teal-600">
             <button
               onClick={handleDecrement}
               className="flex h-7 w-7 items-center justify-center rounded-l-lg hover:bg-teal-700 transition-colors focus:outline-none"
@@ -163,13 +158,21 @@ export default function ProductCard({
         ) : (
           <button
             onClick={handleAdd}
-            className="flex items-center gap-1.5 rounded-lg border border-teal-200 bg-white hover:bg-teal-600 text-teal-600 hover:text-white px-3 py-1.5 text-xs font-bold transition-all duration-150 shadow-xs focus:outline-none"
+            className="relative z-10 flex items-center gap-1.5 rounded-lg border border-teal-200 bg-white hover:bg-teal-600 text-teal-600 hover:text-white px-3 py-1.5 text-xs font-bold transition-all duration-150 shadow-xs focus:outline-none"
           >
             <Plus className="h-3.5 w-3.5" />
             <span>ADD</span>
           </button>
         )}
       </div>
+
+      <Link
+        href={`/product/${product.id}`}
+        aria-label={`View ${product.name} details`}
+        className="absolute inset-0 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+      >
+        <span className="sr-only">View {product.name} details</span>
+      </Link>
     </div>
   );
 }

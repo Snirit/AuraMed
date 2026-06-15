@@ -2,9 +2,8 @@
 
 import React, { useMemo } from "react";
 import Link from "next/link";
-import { ChevronRight, ShieldAlert, Plus, Minus, Check, ArrowRight } from "lucide-react";
+import { ChevronRight, ShieldAlert, Plus, Minus, Check } from "lucide-react";
 import { useMockStore } from "@/lib/mock-store";
-import ProductCard from "@/components/ProductCard";
 
 export default function ProductDetailPage({ params }: { params: { id: string } }) {
   const { id } = params;
@@ -17,20 +16,6 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
   // Find if this item is in the cart
   const cartItem = cart.items.find(item => item.productId === id);
   const quantity = cartItem ? cartItem.quantity : 0;
-
-  // Find generic or branded alternatives with the exact same active salt composition
-  const alternatives = useMemo(() => {
-    if (!product) return [];
-
-    return products.filter(p => 
-      p.id !== product.id &&
-      p.composition.length === product.composition.length &&
-      p.composition.every((c, index) => 
-        c.salt === product.composition[index].salt && 
-        c.strength === product.composition[index].strength
-      )
-    );
-  }, [product, products]);
 
   if (!product) {
     return (
@@ -236,50 +221,6 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
         </div>
       </div>
 
-      {/* Alternatives section */}
-      {alternatives.length > 0 && (
-        <div className="mb-8 border-t border-slate-100 pt-8">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h2 className="text-lg font-bold text-slate-950">Cheaper Alternatives (Same Composition)</h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Exact same salt composition ({product.composition.map(c => c.salt).join(" + ")}), differing only by brand and price.
-              </p>
-            </div>
-          </div>
-
-          {/* Best-savings callout (computed once) */}
-          {(() => {
-            const bestSavings = alternatives.reduce<{ price: number; savingsPct: number } | null>(
-              (best, alt) => {
-                const priceDiff = product.price - alt.price;
-                const pct = Math.round((priceDiff / product.price) * 100);
-                if (priceDiff > 0 && (!best || pct > best.savingsPct)) {
-                  return { price: alt.price, savingsPct: pct };
-                }
-                return best;
-              },
-              null
-            );
-            return bestSavings ? (
-              <div className="mb-4 rounded-xl border border-emerald-100 bg-emerald-50/40 px-4 py-2.5 flex items-center gap-2">
-                <span className="rounded-md bg-emerald-500 text-white px-1.5 py-0.5 text-[9px] font-extrabold">
-                  SAVE UP TO {bestSavings.savingsPct}%
-                </span>
-                <span className="text-xs font-semibold text-emerald-900">
-                  Same composition, prices from ₹{bestSavings.price} — keep the brand or switch and save.
-                </span>
-              </div>
-            ) : null;
-          })()}
-
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {alternatives.map((alt) => (
-              <ProductCard key={alt.id} product={alt} variant="highlight-generic" />
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
