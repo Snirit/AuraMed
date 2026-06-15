@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "prod_telma_40",
+    "name": "Telma 40 Tablet",
+    "manufacturer": "Glenmark Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Telmisartan",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 180,
+    "mrp": 200,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Telma 40 Tablet is a medicine used to treat high blood pressure and heart failure. Lowering blood pressure helps to prevent future heart attacks and strokes.",
+    "category": "bp-heart",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_telmikind_40",
+    "name": "Telmikind 40 Tablet",
+    "manufacturer": "Mankind Pharma Ltd",
+    "composition": [
+      {
+        "salt": "Telmisartan",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 95,
+    "mrp": 100,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Telmikind 40 Tablet is a cheaper alternative to Telma 40 with the exact same active salt composition and strength.",
+    "category": "bp-heart",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_telpres_40",
+    "name": "Telpres 40 Tablet",
+    "manufacturer": "Abbott Healthcare Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Telmisartan",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 110,
+    "mrp": 120,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Telpres 40 Tablet is an effective medicine containing Telmisartan 40mg. Used primarily for managing blood pressure under strict medical supervision.",
+    "category": "bp-heart",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_amlong_5",
+    "name": "Amlong 5 Tablet",
+    "manufacturer": "Micro Labs Ltd",
+    "composition": [
+      {
+        "salt": "Amlodipine",
+        "strength": "5mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 55,
+    "mrp": 62,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Amlong 5 Tablet contains Amlodipine, a calcium channel blocker used to treat high blood pressure and chest pain (angina).",
+    "category": "bp-heart",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_amlokind_5",
+    "name": "Amlokind 5 Tablet",
+    "manufacturer": "Mankind Pharma Ltd",
+    "composition": [
+      {
+        "salt": "Amlodipine",
+        "strength": "5mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 32,
+    "mrp": 36,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Amlokind 5 Tablet is a generic Amlodipine option offering blood pressure control at an affordable price.",
+    "category": "bp-heart",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_losar_50",
+    "name": "Losar 50 Tablet",
+    "manufacturer": "Unichem Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Losartan Potassium",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 105,
+    "mrp": 115,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Losar 50 Tablet is used in the treatment of high blood pressure and to protect kidneys from damage due to diabetes.",
+    "category": "bp-heart",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_atorlip_10",
+    "name": "Atorlip 10 Tablet",
+    "manufacturer": "Cipla Ltd",
+    "composition": [
+      {
+        "salt": "Atorvastatin",
+        "strength": "10mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 140,
+    "mrp": 155,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=150&auto=format&fit=crop&q=60",
+    "description": "Atorlip 10 Tablet belongs to a group of medicines called statins. It is used to lower cholesterol and to reduce the risk of heart disease.",
+    "category": "bp-heart",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_atorva_10",
+    "name": "Atorva 10 Tablet",
+    "manufacturer": "Zydus Cadila",
+    "composition": [
+      {
+        "salt": "Atorvastatin",
+        "strength": "10mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 75,
+    "mrp": 80,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=150&auto=format&fit=crop&q=60",
+    "description": "Atorva 10 Tablet is a cost-effective generic version of Atorvastatin 10mg, supporting cholesterol management with high quality control.",
+    "category": "bp-heart",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_ecosprin_75",
+    "name": "Ecosprin 75 Tablet",
+    "manufacturer": "USV Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Aspirin",
+        "strength": "75mg"
+      }
+    ],
+    "packSize": "14 tablets",
+    "price": 12,
+    "mrp": 14,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Ecosprin 75 Tablet is a blood thinner used to prevent heart attacks and strokes in people at high cardiovascular risk.",
+    "category": "bp-heart",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_glycomet_500",
+    "name": "Glycomet 500 Tablet",
+    "manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Metformin",
+        "strength": "500mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 95,
+    "mrp": 105,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Glycomet 500 Tablet is a medicine used to treat type 2 diabetes mellitus. It helps control blood sugar levels and prevent complications.",
+    "category": "diabetes",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_gluformin_500",
+    "name": "Gluformin 500 Tablet",
+    "manufacturer": "Abbott India Ltd",
+    "composition": [
+      {
+        "salt": "Metformin",
+        "strength": "500mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 45,
+    "mrp": 50,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Gluformin 500 Tablet is a generic Metformin alternative that helps manage type-2 diabetes at a much lower cost.",
+    "category": "diabetes",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_metmin_500",
+    "name": "Metmin 500 Tablet",
+    "manufacturer": "Micro Labs Ltd",
+    "composition": [
+      {
+        "salt": "Metformin",
+        "strength": "500mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 50,
+    "mrp": 55,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Metmin 500 Tablet contains Metformin 500mg, an oral anti-diabetic drug that improves insulin sensitivity.",
+    "category": "diabetes",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_jalra_50",
+    "name": "Jalra 50 Tablet",
+    "manufacturer": "Novartis India Ltd",
+    "composition": [
+      {
+        "salt": "Vildagliptin",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "14 tablets",
+    "price": 320,
+    "mrp": 350,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Jalra 50 Tablet is an oral anti-diabetic medicine containing Vildagliptin. It works by causing the pancreas to produce more insulin.",
+    "category": "diabetes",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_vildamid_50",
+    "name": "Vildamid 50 Tablet",
+    "manufacturer": "Lupin Ltd",
+    "composition": [
+      {
+        "salt": "Vildagliptin",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "14 tablets",
+    "price": 180,
+    "mrp": 195,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Vildamid 50 is a high-quality generic alternative to Jalra 50, offering Vildagliptin 50mg to regulate post-meal blood sugar levels.",
+    "category": "diabetes",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_amaryl_2",
+    "name": "Amaryl 2 Tablet",
+    "manufacturer": "Sanofi India Ltd",
+    "composition": [
+      {
+        "salt": "Glimepiride",
+        "strength": "2mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 165,
+    "mrp": 180,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Amaryl 2 Tablet stimulates the pancreas to release more insulin, helping control blood sugar in type-2 diabetes.",
+    "category": "diabetes",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_glimestar_m2",
+    "name": "Glimestar M 2 Tablet",
+    "manufacturer": "Mankind Pharma Ltd",
+    "composition": [
+      {
+        "salt": "Glimepiride",
+        "strength": "2mg"
+      },
+      {
+        "salt": "Metformin",
+        "strength": "500mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 95,
+    "mrp": 105,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Glimestar M 2 is a combination diabetic medicine offering dual-action sugar control through Glimepiride and Metformin.",
+    "category": "diabetes",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_januvia_50",
+    "name": "Januvia 50 Tablet",
+    "manufacturer": "MSD Pharmaceuticals Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Sitagliptin",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "14 tablets",
+    "price": 410,
+    "mrp": 450,
+    "rxRequired": true,
+    "inStock": false,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Januvia 50 Tablet is an oral anti-diabetic that helps control blood sugar levels in adults with type-2 diabetes.",
+    "category": "diabetes",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_sinarest",
+    "name": "Sinarest Tablet",
+    "manufacturer": "Centaur Pharmaceuticals Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "325mg"
+      },
+      {
+        "salt": "Phenylephrine",
+        "strength": "5mg"
+      },
+      {
+        "salt": "Chlorpheniramine",
+        "strength": "2mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 65,
+    "mrp": 75,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Sinarest Tablet is used in the treatment of common cold symptoms like runny nose, watery eyes, sneezing, congestion, or stuffiness.",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_solvin_cold",
+    "name": "Solvin Cold Tablet",
+    "manufacturer": "IPCA Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "325mg"
+      },
+      {
+        "salt": "Phenylephrine",
+        "strength": "5mg"
+      },
+      {
+        "salt": "Chlorpheniramine",
+        "strength": "2mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 40,
+    "mrp": 45,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Solvin Cold Tablet is a cheaper generic formulation matching the composition of Sinarest exactly, treating fever and cold.",
+    "category": "cold-cough",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_ascoril_ls",
+    "name": "Ascoril LS Syrup",
+    "manufacturer": "Glenmark Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Levosalbutamol",
+        "strength": "1mg"
+      },
+      {
+        "salt": "Ambroxol",
+        "strength": "30mg"
+      },
+      {
+        "salt": "Guaiphenesin",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "100 ml syrup",
+    "price": 125,
+    "mrp": 140,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=150&auto=format&fit=crop&q=60",
+    "description": "Ascoril LS Syrup is a combination medicine used in the treatment of cough with mucus. It thins mucus and makes it easier to cough out.",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_ambrolite_s",
+    "name": "Ambrolite S Syrup",
+    "manufacturer": "Alkem Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Levosalbutamol",
+        "strength": "1mg"
+      },
+      {
+        "salt": "Ambroxol",
+        "strength": "30mg"
+      },
+      {
+        "salt": "Guaiphenesin",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "100 ml syrup",
+    "price": 80,
+    "mrp": 90,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=150&auto=format&fit=crop&q=60",
+    "description": "Ambrolite S Syrup provides identical relief for productive cough using the exact active composition as Ascoril LS.",
+    "category": "cold-cough",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_cetzine_10",
+    "name": "Cetzine 10 Tablet",
+    "manufacturer": "Dr. Reddy's Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Cetirizine",
+        "strength": "10mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 28,
+    "mrp": 32,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Cetzine 10 Tablet is an antihistamine used for the treatment of allergic conditions like runny nose, sneezing, and watery eyes.",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_alerid_10",
+    "name": "Alerid 10 Tablet",
+    "manufacturer": "Cipla Ltd",
+    "composition": [
+      {
+        "salt": "Cetirizine",
+        "strength": "10mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 22,
+    "mrp": 25,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Alerid 10 is a popular Cetirizine alternative for everyday allergy relief from runny nose, sneezing, and itching.",
+    "category": "cold-cough",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_levocet_5",
+    "name": "Levocet 5 Tablet",
+    "manufacturer": "Dr. Reddy's Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Levocetirizine",
+        "strength": "5mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 78,
+    "mrp": 85,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Levocet 5 Tablet is a non-drowsy antihistamine used for allergic rhinitis and chronic urticaria (hives).",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_benadryl_syrup",
+    "name": "Benadryl Cough Syrup",
+    "manufacturer": "Johnson & Johnson Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Diphenhydramine",
+        "strength": "14mg"
+      },
+      {
+        "salt": "Ammonium Chloride",
+        "strength": "138mg"
+      }
+    ],
+    "packSize": "150 ml syrup",
+    "price": 145,
+    "mrp": 160,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=150&auto=format&fit=crop&q=60",
+    "description": "Benadryl Cough Syrup helps loosen mucus and provides relief from cough caused by colds and respiratory infections.",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_strepsils",
+    "name": "Strepsils Lozenges (Original)",
+    "manufacturer": "Reckitt Benckiser",
+    "composition": [
+      {
+        "salt": "Amylmetacresol",
+        "strength": "0.6mg"
+      },
+      {
+        "salt": "Dichlorobenzyl Alcohol",
+        "strength": "1.2mg"
+      }
+    ],
+    "packSize": "16 lozenges",
+    "price": 60,
+    "mrp": 65,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Strepsils Lozenges provide soothing relief from sore throat, mouth infections, and minor throat irritation.",
+    "category": "cold-cough",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_revital_h",
+    "name": "Revital H Capsule",
+    "manufacturer": "Sun Pharmaceutical Industries Ltd",
+    "composition": [
+      {
+        "salt": "Multivitamins",
+        "strength": "1 Unit"
+      },
+      {
+        "salt": "Ginseng",
+        "strength": "90mg"
+      }
+    ],
+    "packSize": "30 capsules",
+    "price": 420,
+    "mrp": 450,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Revital H Capsule is a daily health supplement with a combination of Ginseng, 10 Vitamins and 9 Minerals which helps improve energy.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_zincovit",
+    "name": "Zincovit Tablet",
+    "manufacturer": "Apex Laboratories Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Multivitamins",
+        "strength": "1 Unit"
+      },
+      {
+        "salt": "Zinc",
+        "strength": "50mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 115,
+    "mrp": 125,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Zincovit Tablet is a multivitamin and multimineral supplement containing essential nutrients to support immunity and overall health.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_becosules",
+    "name": "Becosules Capsules",
+    "manufacturer": "Pfizer Ltd",
+    "composition": [
+      {
+        "salt": "Vitamin B-Complex",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "20 capsules",
+    "price": 55,
+    "mrp": 60,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Becosules capsule is a multivitamin formulation containing Vitamin B-complex and Vitamin C, designed to treat vitamin deficiency.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_evion_400",
+    "name": "Evion 400 Capsule",
+    "manufacturer": "Merck Ltd",
+    "composition": [
+      {
+        "salt": "Vitamin E",
+        "strength": "400mg"
+      }
+    ],
+    "packSize": "10 capsules",
+    "price": 35,
+    "mrp": 38,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Evion 400 Capsule contains Vitamin E (Tocopheryl Acetate) which has antioxidant properties protecting skin and hair.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_calcirol_60k",
+    "name": "Calcirol 60K Sachet",
+    "manufacturer": "Cadila Healthcare Ltd",
+    "composition": [
+      {
+        "salt": "Cholecalciferol (Vitamin D3)",
+        "strength": "60000 IU"
+      }
+    ],
+    "packSize": "4 sachets",
+    "price": 145,
+    "mrp": 160,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Calcirol 60K Sachet provides Vitamin D3 to treat deficiency, support bone health, and improve calcium absorption.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_shelcal_500",
+    "name": "Shelcal 500 Tablet",
+    "manufacturer": "Torrent Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Calcium Carbonate",
+        "strength": "500mg"
+      },
+      {
+        "salt": "Vitamin D3",
+        "strength": "250 IU"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 95,
+    "mrp": 105,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Shelcal 500 supplies calcium and Vitamin D3 to support strong bones and prevent osteoporosis.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_orofer_xt",
+    "name": "Orofer XT Tablet",
+    "manufacturer": "Emcure Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Iron",
+        "strength": "100mg"
+      },
+      {
+        "salt": "Folic Acid",
+        "strength": "1.5mg"
+      }
+    ],
+    "packSize": "10 tablets",
+    "price": 85,
+    "mrp": 95,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Orofer XT Tablet is an iron and folic acid supplement used to treat iron deficiency anemia, especially during pregnancy.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_neurobion_forte",
+    "name": "Neurobion Forte Tablet",
+    "manufacturer": "Procter & Gamble Health Ltd",
+    "composition": [
+      {
+        "salt": "Vitamin B-Complex with B12",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "30 tablets",
+    "price": 42,
+    "mrp": 48,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1616679911721-eff6eec18fcd?w=150&auto=format&fit=crop&q=60",
+    "description": "Neurobion Forte supports nervous system health with high doses of Vitamin B1, B6, and B12 to combat fatigue and nerve issues.",
+    "category": "vitamins",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_dolo_650",
+    "name": "Dolo 650 Tablet",
+    "manufacturer": "Micro Labs Ltd",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "650mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 30,
+    "mrp": 34,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Dolo 650 Tablet contains Paracetamol 650mg, a widely used analgesic and antipyretic for relieving pain and reducing fever.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_crocin_650",
+    "name": "Crocin 650 Tablet",
+    "manufacturer": "GlaxoSmithKline Consumer Healthcare",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "650mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 32,
+    "mrp": 35,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Crocin 650 is another branded Paracetamol 650mg option providing fast relief from pain and fever.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pacimol_650",
+    "name": "Pacimol 650 Tablet",
+    "manufacturer": "IPCA Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "650mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 18,
+    "mrp": 20,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Pacimol 650 is a generic Paracetamol 650mg option that offers identical therapeutic effects at a highly affordable price.",
+    "category": "pain-relief",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_brufen_400",
+    "name": "Brufen 400 Tablet",
+    "manufacturer": "Abbott India Ltd",
+    "composition": [
+      {
+        "salt": "Ibuprofen",
+        "strength": "400mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 55,
+    "mrp": 62,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Brufen 400 Tablet is an anti-inflammatory pain reliever used for headaches, dental pain, period pain, and muscle aches.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_combiflam",
+    "name": "Combiflam Tablet",
+    "manufacturer": "Sanofi India Ltd",
+    "composition": [
+      {
+        "salt": "Ibuprofen",
+        "strength": "400mg"
+      },
+      {
+        "salt": "Paracetamol",
+        "strength": "325mg"
+      }
+    ],
+    "packSize": "20 tablets",
+    "price": 45,
+    "mrp": 50,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Combiflam Tablet is a combination of Ibuprofen and Paracetamol used to relieve moderate to severe pain and inflammation.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_volini_gel",
+    "name": "Volini Pain Relief Gel",
+    "manufacturer": "Sun Pharmaceutical Industries Ltd",
+    "composition": [
+      {
+        "salt": "Diclofenac Diethylamine",
+        "strength": "1.16% w/w"
+      },
+      {
+        "salt": "Methyl Salicylate",
+        "strength": "10% w/w"
+      },
+      {
+        "salt": "Linseed Oil",
+        "strength": "3% w/w"
+      }
+    ],
+    "packSize": "30 g gel",
+    "price": 165,
+    "mrp": 180,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=150&auto=format&fit=crop&q=60",
+    "description": "Volini Gel provides fast topical relief from back pain, muscle sprains, and joint pain through cooling and anti-inflammatory action.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_moov_spray",
+    "name": "Moov Pain Relief Spray",
+    "manufacturer": "Reckitt Benckiser",
+    "composition": [
+      {
+        "salt": "Wintergreen Oil",
+        "strength": "Q.S"
+      },
+      {
+        "salt": "Menthol",
+        "strength": "5% w/w"
+      }
+    ],
+    "packSize": "55 g spray",
+    "price": 185,
+    "mrp": 200,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=150&auto=format&fit=crop&q=60",
+    "description": "Moov Spray instantly relieves back pain, joint pain, and muscle stiffness through deep penetrating warmth.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_ultracet",
+    "name": "Ultracet Tablet",
+    "manufacturer": "Janssen Pharmaceuticals",
+    "composition": [
+      {
+        "salt": "Tramadol",
+        "strength": "37.5mg"
+      },
+      {
+        "salt": "Acetaminophen",
+        "strength": "325mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 260,
+    "mrp": 285,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Ultracet Tablet is a combination medicine used in the treatment of moderate to severe acute pain. Under strict prescription.",
+    "category": "pain-relief",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pantop_40",
+    "name": "Pantop 40 Tablet",
+    "manufacturer": "Aristo Pharmaceuticals Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Pantoprazole",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 150,
+    "mrp": 165,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Pantop 40 Tablet is a medicine that reduces the amount of acid produced in your stomach. Used to treat acid reflux and ulcers.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pan_40",
+    "name": "Pan 40 Tablet",
+    "manufacturer": "Alkem Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Pantoprazole",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 145,
+    "mrp": 160,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Pan 40 is a popular branded Pantoprazole 40mg option to suppress gastric acid secretion.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pantocid_40",
+    "name": "Pantocid 40 Tablet",
+    "manufacturer": "Sun Pharmaceutical Industries Ltd",
+    "composition": [
+      {
+        "salt": "Pantoprazole",
+        "strength": "40mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 90,
+    "mrp": 100,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Pantocid 40 is a high quality generic alternative containing Pantoprazole 40mg for hyperacidity control.",
+    "category": "stomach",
+    "isGeneric": true
+  },
+  {
+    "id": "prod_digene_syrup",
+    "name": "Digene Syrup (Mint)",
+    "manufacturer": "Abbott India Ltd",
+    "composition": [
+      {
+        "salt": "Magnesium Hydroxide",
+        "strength": "250mg"
+      },
+      {
+        "salt": "Aluminium Hydroxide",
+        "strength": "380mg"
+      }
+    ],
+    "packSize": "200 ml syrup",
+    "price": 170,
+    "mrp": 185,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=150&auto=format&fit=crop&q=60",
+    "description": "Digene Syrup provides relief from acidity, heartburn, gas, and stomach discomfort. Acts by neutralizing stomach acids.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_omez_20",
+    "name": "Omez 20 Capsule",
+    "manufacturer": "Dr. Reddy's Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Omeprazole",
+        "strength": "20mg"
+      }
+    ],
+    "packSize": "15 capsules",
+    "price": 60,
+    "mrp": 65,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=150&auto=format&fit=crop&q=60",
+    "description": "Omez 20 Capsule is a proton pump inhibitor used to reduce excessive acid production, preventing ulcers and heartburn.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_razo_20",
+    "name": "Razo 20 Tablet",
+    "manufacturer": "Dr. Reddy's Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Rabeprazole",
+        "strength": "20mg"
+      }
+    ],
+    "packSize": "15 tablets",
+    "price": 175,
+    "mrp": 190,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=150&auto=format&fit=crop&q=60",
+    "description": "Razo 20 Tablet treats acidity, GERD, peptic ulcers, and Zollinger-Ellison syndrome by reducing stomach acid production.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_electral",
+    "name": "Electral Powder",
+    "manufacturer": "FDC Ltd",
+    "composition": [
+      {
+        "salt": "Sodium Chloride",
+        "strength": "2.6g/L"
+      },
+      {
+        "salt": "Potassium Chloride",
+        "strength": "1.5g/L"
+      },
+      {
+        "salt": "Sodium Citrate",
+        "strength": "2.9g/L"
+      },
+      {
+        "salt": "Glucose Anhydrous",
+        "strength": "13.5g/L"
+      }
+    ],
+    "packSize": "21.8 g sachet",
+    "price": 22,
+    "mrp": 24,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=150&auto=format&fit=crop&q=60",
+    "description": "Electral Powder is an oral rehydration salt (ORS) used to replenish electrolytes lost due to diarrhea or dehydration.",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_thyronorm_50",
+    "name": "Thyronorm 50mcg Tablet",
+    "manufacturer": "Abbott India Ltd",
+    "composition": [
+      {
+        "salt": "Thyroxine Sodium",
+        "strength": "50mcg"
+      }
+    ],
+    "packSize": "120 tablets",
+    "price": 190,
+    "mrp": 210,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=150&auto=format&fit=crop&q=60",
+    "description": "Thyronorm 50mcg Tablet is a synthetic thyroid hormone used to treat hypothyroidism (underactive thyroid gland).",
+    "category": "stomach",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_refresh_tears",
+    "name": "Refresh Tears Eye Drops",
+    "manufacturer": "Allergan India Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Carboxymethylcellulose Sodium",
+        "strength": "0.5% w/v"
+      }
+    ],
+    "packSize": "10 ml drops",
+    "price": 165,
+    "mrp": 180,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Refresh Tears provides instant lubrication and relief from dry, irritated eyes caused by screen use or dry environments.",
+    "category": "eye-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_systane_ultra",
+    "name": "Systane Ultra Eye Drops",
+    "manufacturer": "Alcon Laboratories",
+    "composition": [
+      {
+        "salt": "Polyethylene Glycol",
+        "strength": "0.4% w/v"
+      },
+      {
+        "salt": "Propylene Glycol",
+        "strength": "0.3% w/v"
+      }
+    ],
+    "packSize": "10 ml drops",
+    "price": 285,
+    "mrp": 310,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Systane Ultra Eye Drops provide long-lasting relief from dry eyes with advanced hydrating technology.",
+    "category": "eye-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_moxiflox_eye",
+    "name": "Moxiflox 0.5% Eye Drops",
+    "manufacturer": "Cipla Ltd",
+    "composition": [
+      {
+        "salt": "Moxifloxacin",
+        "strength": "0.5% w/v"
+      }
+    ],
+    "packSize": "5 ml drops",
+    "price": 95,
+    "mrp": 105,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Moxiflox Eye Drops is an antibiotic used to treat bacterial eye infections, conjunctivitis, and corneal ulcers.",
+    "category": "eye-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_itone_eye",
+    "name": "Itone Eye Drops",
+    "manufacturer": "Jagat Pharma",
+    "composition": [
+      {
+        "salt": "Ayurvedic Herbal Blend",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "10 ml drops",
+    "price": 55,
+    "mrp": 60,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Itone Eye Drops are an Ayurvedic formula providing relief from eye strain, redness, and minor irritation.",
+    "category": "eye-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_prednisolone_eye",
+    "name": "Predmet Eye Drops",
+    "manufacturer": "Sun Pharmaceutical Industries Ltd",
+    "composition": [
+      {
+        "salt": "Prednisolone Acetate",
+        "strength": "1% w/v"
+      }
+    ],
+    "packSize": "5 ml drops",
+    "price": 75,
+    "mrp": 82,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Predmet Eye Drops contain a steroid used to treat eye inflammation, post-surgical swelling, and allergic eye conditions.",
+    "category": "eye-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_cetaphil_cleanser",
+    "name": "Cetaphil Gentle Skin Cleanser",
+    "manufacturer": "Galderma India Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Skin Care Formula",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "250 ml bottle",
+    "price": 425,
+    "mrp": 460,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Cetaphil Gentle Skin Cleanser is a non-irritating, dermatologically-tested cleanser suitable for all skin types.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_minoxidil_5",
+    "name": "Mintop 5% Hair Solution",
+    "manufacturer": "Dr. Reddy's Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Minoxidil",
+        "strength": "5% w/v"
+      }
+    ],
+    "packSize": "60 ml bottle",
+    "price": 685,
+    "mrp": 750,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Mintop 5% Hair Solution is used to treat hair loss (androgenic alopecia) in men and women by stimulating hair regrowth.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_clop_g_cream",
+    "name": "Clop-G Cream",
+    "manufacturer": "Indoco Remedies Ltd",
+    "composition": [
+      {
+        "salt": "Clobetasol",
+        "strength": "0.05% w/w"
+      },
+      {
+        "salt": "Gentamicin",
+        "strength": "0.1% w/w"
+      }
+    ],
+    "packSize": "10 g cream",
+    "price": 38,
+    "mrp": 42,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Clop-G Cream is used to treat skin infections, eczema, dermatitis, and inflammatory skin disorders.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_betnovate_n",
+    "name": "Betnovate N Cream",
+    "manufacturer": "GlaxoSmithKline Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Betamethasone",
+        "strength": "0.1% w/w"
+      },
+      {
+        "salt": "Neomycin Sulphate",
+        "strength": "0.5% w/w"
+      }
+    ],
+    "packSize": "20 g cream",
+    "price": 85,
+    "mrp": 95,
+    "rxRequired": true,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Betnovate N Cream is a steroid-antibiotic combination treating skin allergies, eczema, and bacterial skin infections.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_candid_powder",
+    "name": "Candid Dusting Powder",
+    "manufacturer": "Glenmark Pharmaceuticals Ltd",
+    "composition": [
+      {
+        "salt": "Clotrimazole",
+        "strength": "1% w/w"
+      }
+    ],
+    "packSize": "100 g powder",
+    "price": 165,
+    "mrp": 180,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Candid Dusting Powder is an antifungal powder used to treat ringworm, athlete's foot, and other fungal skin infections.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_dermadew_lotion",
+    "name": "Dermadew Aloe Lotion",
+    "manufacturer": "Avalon Pharma",
+    "composition": [
+      {
+        "salt": "Aloe Vera Extract",
+        "strength": "Q.S"
+      },
+      {
+        "salt": "Vitamin E",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "200 ml bottle",
+    "price": 195,
+    "mrp": 215,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Dermadew Aloe Lotion is a hydrating body lotion enriched with aloe vera and vitamin E for dry, sensitive skin.",
+    "category": "derma",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_calpol_120",
+    "name": "Calpol 120mg Suspension",
+    "manufacturer": "GlaxoSmithKline Consumer Healthcare",
+    "composition": [
+      {
+        "salt": "Paracetamol",
+        "strength": "120mg/5ml"
+      }
+    ],
+    "packSize": "60 ml suspension",
+    "price": 55,
+    "mrp": 60,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=150&auto=format&fit=crop&q=60",
+    "description": "Calpol 120mg Suspension is a child-friendly Paracetamol formulation for relief from fever and mild pain in infants and children.",
+    "category": "baby-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pediasure",
+    "name": "Pediasure Premium Chocolate",
+    "manufacturer": "Abbott Nutrition",
+    "composition": [
+      {
+        "salt": "Nutritional Supplement",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "400 g powder",
+    "price": 720,
+    "mrp": 785,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "Pediasure is a complete, balanced nutritional supplement for children aged 2-10 to support growth and immunity.",
+    "category": "baby-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_himalaya_baby_lotion",
+    "name": "Himalaya Baby Lotion",
+    "manufacturer": "Himalaya Drug Company",
+    "composition": [
+      {
+        "salt": "Olive Oil",
+        "strength": "Q.S"
+      },
+      {
+        "salt": "Almond Oil",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "200 ml bottle",
+    "price": 175,
+    "mrp": 190,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Himalaya Baby Lotion gently nourishes and moisturizes delicate baby skin with natural ingredients.",
+    "category": "baby-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_johnson_baby_powder",
+    "name": "Johnson's Baby Powder",
+    "manufacturer": "Johnson & Johnson Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Talc-based Formula",
+        "strength": "Q.S"
+      }
+    ],
+    "packSize": "200 g bottle",
+    "price": 145,
+    "mrp": 160,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=150&auto=format&fit=crop&q=60",
+    "description": "Johnson's Baby Powder keeps baby's skin soft, smooth, and protected from rashes throughout the day.",
+    "category": "baby-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_mamypoko_pants_m",
+    "name": "MamyPoko Pants (Medium)",
+    "manufacturer": "Unicharm India Pvt Ltd",
+    "composition": [
+      {
+        "salt": "Disposable Diaper",
+        "strength": "M Size"
+      }
+    ],
+    "packSize": "56 diapers pack",
+    "price": 720,
+    "mrp": 799,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1576073719676-aa95576db207?w=150&auto=format&fit=crop&q=60",
+    "description": "MamyPoko Pants offer extra-absorbent, soft-fit diapers suitable for babies weighing 7-12 kg.",
+    "category": "baby-care",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_omron_thermo",
+    "name": "Omron MC-246 Digital Thermometer",
+    "manufacturer": "Omron Healthcare India",
+    "composition": [
+      {
+        "salt": "Digital Device",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 245,
+    "mrp": 295,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1580281657527-47f249e8f4df?w=150&auto=format&fit=crop&q=60",
+    "description": "Omron Digital Thermometer provides fast and accurate temperature readings in under 60 seconds with fever alert beep.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_dr_morepen_thermo",
+    "name": "Dr Morepen MT-110 Thermometer",
+    "manufacturer": "Morepen Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Digital Device",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 145,
+    "mrp": 175,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1580281657527-47f249e8f4df?w=150&auto=format&fit=crop&q=60",
+    "description": "Dr Morepen Digital Thermometer offers reliable temperature measurement with auto shut-off and memory recall.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_omron_bp_monitor",
+    "name": "Omron HEM-7120 BP Monitor",
+    "manufacturer": "Omron Healthcare India",
+    "composition": [
+      {
+        "salt": "Digital BP Monitor",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 1850,
+    "mrp": 2095,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?w=150&auto=format&fit=crop&q=60",
+    "description": "Omron HEM-7120 is a fully automatic upper arm blood pressure monitor with intellisense technology for accurate readings.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_dr_morepen_bp",
+    "name": "Dr Morepen BP-02 Monitor",
+    "manufacturer": "Morepen Laboratories Ltd",
+    "composition": [
+      {
+        "salt": "Digital BP Monitor",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 1395,
+    "mrp": 1595,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?w=150&auto=format&fit=crop&q=60",
+    "description": "Dr Morepen BP-02 BP Monitor offers accurate and reliable home blood pressure monitoring with large LCD display.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_accuchek_active",
+    "name": "Accu-Chek Active Glucometer",
+    "manufacturer": "Roche Diabetes Care India",
+    "composition": [
+      {
+        "salt": "Glucometer Kit",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit (with 10 strips)",
+    "price": 1245,
+    "mrp": 1400,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1580281657527-47f249e8f4df?w=150&auto=format&fit=crop&q=60",
+    "description": "Accu-Chek Active Glucometer is a compact blood glucose monitor providing accurate readings in just 5 seconds.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_accuchek_strips",
+    "name": "Accu-Chek Active Test Strips",
+    "manufacturer": "Roche Diabetes Care India",
+    "composition": [
+      {
+        "salt": "Glucose Test Strips",
+        "strength": "50 strips"
+      }
+    ],
+    "packSize": "50 strips",
+    "price": 895,
+    "mrp": 990,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1580281657527-47f249e8f4df?w=150&auto=format&fit=crop&q=60",
+    "description": "Accu-Chek Active Test Strips work with Accu-Chek Active glucometer for accurate blood glucose monitoring at home.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_pulse_oximeter",
+    "name": "Dr Trust Pulse Oximeter",
+    "manufacturer": "Dr Trust USA",
+    "composition": [
+      {
+        "salt": "Pulse Oximeter Device",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 695,
+    "mrp": 1295,
+    "rxRequired": false,
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?w=150&auto=format&fit=crop&q=60",
+    "description": "Dr Trust Pulse Oximeter accurately measures SpO2 (blood oxygen saturation) and pulse rate with OLED display.",
+    "category": "devices",
+    "isGeneric": false
+  },
+  {
+    "id": "prod_nebulizer_omron",
+    "name": "Omron NE-C28 Nebulizer",
+    "manufacturer": "Omron Healthcare India",
+    "composition": [
+      {
+        "salt": "Compressor Nebulizer",
+        "strength": "1 Unit"
+      }
+    ],
+    "packSize": "1 unit",
+    "price": 2495,
+    "mrp": 2895,
+    "rxRequired": false,
+    "inStock": false,
+    "imageUrl": "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?w=150&auto=format&fit=crop&q=60",
+    "description": "Omron NE-C28 Compressor Nebulizer is suitable for respiratory therapy in asthma, COPD, and other respiratory conditions.",
+    "category": "devices",
+    "isGeneric": false
+  }
+]

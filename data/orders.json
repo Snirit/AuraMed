@@ -1,0 +1,145 @@
+[
+  {
+    "id": "order_578857",
+    "userId": "user_priya_001",
+    "items": [
+      {
+        "productId": "prod_telma_40",
+        "productName": "Telma 40 Tablet",
+        "quantity": 1,
+        "price": 180
+      },
+      {
+        "productId": "prod_glycomet_500",
+        "productName": "Glycomet 500 Tablet",
+        "quantity": 1,
+        "price": 95
+      },
+      {
+        "productId": "prod_atorlip_10",
+        "productName": "Atorlip 10 Tablet",
+        "quantity": 1,
+        "price": 140
+      },
+      {
+        "productId": "prod_zincovit",
+        "productName": "Zincovit Tablet",
+        "quantity": 1,
+        "price": 115
+      },
+      {
+        "productId": "prod_becosules",
+        "productName": "Becosules Capsules",
+        "quantity": 1,
+        "price": 55
+      }
+    ],
+    "attachedPrescriptionIds": [
+      "rx_moms_bp_001"
+    ],
+    "addressId": "addr_bangalore_001",
+    "bill": {
+      "itemsTotal": 585,
+      "deliveryFee": 0,
+      "discount": 50,
+      "totalPayable": 535
+    },
+    "status": "placed",
+    "placedAt": "2026-06-15T14:08:50.813Z"
+  },
+  {
+    "id": "order_761633",
+    "userId": "user_priya_001",
+    "items": [
+      {
+        "productId": "prod_telma_40",
+        "productName": "Telma 40 Tablet",
+        "quantity": 1,
+        "price": 180
+      },
+      {
+        "productId": "prod_glycomet_500",
+        "productName": "Glycomet 500 Tablet",
+        "quantity": 1,
+        "price": 95
+      },
+      {
+        "productId": "prod_atorlip_10",
+        "productName": "Atorlip 10 Tablet",
+        "quantity": 1,
+        "price": 140
+      }
+    ],
+    "attachedPrescriptionIds": [
+      "rx_1781464112030",
+      "rx_1781464094845"
+    ],
+    "addressId": "addr_bangalore_001",
+    "bill": {
+      "itemsTotal": 415,
+      "deliveryFee": 30,
+      "discount": 50,
+      "totalPayable": 395
+    },
+    "status": "placed",
+    "placedAt": "2026-06-15T09:12:55.587Z"
+  },
+  {
+    "id": "order_522372",
+    "userId": "user_priya_001",
+    "items": [
+      {
+        "productId": "prod_revital_h",
+        "productName": "Revital H Capsule",
+        "quantity": 1,
+        "price": 420
+      }
+    ],
+    "attachedPrescriptionIds": [],
+    "addressId": "addr_bangalore_001",
+    "bill": {
+      "itemsTotal": 420,
+      "deliveryFee": 30,
+      "discount": 50,
+      "totalPayable": 400
+    },
+    "status": "placed",
+    "placedAt": "2026-06-15T09:12:55.517Z"
+  },
+  {
+    "id": "order_sample_001",
+    "userId": "user_priya_001",
+    "items": [
+      {
+        "productId": "prod_telma_40",
+        "productName": "Telma 40 Tablet",
+        "quantity": 1,
+        "price": 180
+      },
+      {
+        "productId": "prod_glycomet_500",
+        "productName": "Glycomet 500 Tablet",
+        "quantity": 1,
+        "price": 95
+      },
+      {
+        "productId": "prod_atorlip_10",
+        "productName": "Atorlip 10 Tablet",
+        "quantity": 1,
+        "price": 140
+      }
+    ],
+    "attachedPrescriptionIds": [
+      "rx_moms_bp_001"
+    ],
+    "addressId": "addr_pune_002",
+    "bill": {
+      "itemsTotal": 415,
+      "deliveryFee": 30,
+      "discount": 50,
+      "totalPayable": 395
+    },
+    "status": "out_for_delivery",
+    "placedAt": "2026-06-14T08:00:00.000Z"
+  }
+]

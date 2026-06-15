@@ -1,0 +1,240 @@
+[
+  {
+    "id": "rx_1781532321152",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Solvin Cold",
+        "composition": "Paracetamol 325mg + Phenylephrine 5mg + Chlorpheniramine 2mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Becosules",
+        "composition": "Vitamin B-Complex 1 Unit",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-15T14:05:21.152Z"
+  },
+  {
+    "id": "rx_1781532275367",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40mg",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Glycomet 500mg",
+        "composition": "Metformin 500mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10mg",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Ecosprin 75mg",
+        "composition": "Aspirin 75mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-15T14:04:35.367Z"
+  },
+  {
+    "id": "rx_1781531882596",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Citrizine",
+        "composition": "Citrizine Salt",
+        "confidence": "high"
+      },
+      {
+        "name": "Paracetamol",
+        "composition": "Paracetamol Salt",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-15T13:58:02.596Z"
+  },
+  {
+    "id": "rx_1781531772045",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Glycomet 500",
+        "composition": "Metformin 500mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-15T13:56:12.045Z"
+  },
+  {
+    "id": "rx_1781531501413",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Tab Rantac 150mg",
+        "composition": "Ranitidine 150mg",
+        "confidence": "high"
+      },
+      {
+        "name": "CAP SM FIBRO",
+        "composition": "Unknown (Capsule)",
+        "confidence": "low"
+      }
+    ],
+    "uploadedAt": "2026-06-15T13:51:41.413Z"
+  },
+  {
+    "id": "rx_1781464247920",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "TAB. ABCIXIMAB",
+        "composition": "ABCIXIMAB",
+        "confidence": "high"
+      },
+      {
+        "name": "TAB. VOMILAST",
+        "composition": "DOXYLAMINE 10MG + PYRIDOXINE 10 MG + FOLIC ACID 2.5 MG",
+        "confidence": "high"
+      },
+      {
+        "name": "CAP. ZOCLAR 500",
+        "composition": "CLARITHROMYCIN IP 500MG",
+        "confidence": "high"
+      },
+      {
+        "name": "TAB. GESTAKIND 10/SR",
+        "composition": "ISOXSUPRINE 10 MG",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-14T19:10:47.920Z"
+  },
+  {
+    "id": "rx_1781464112030",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-14T19:08:32.030Z"
+  },
+  {
+    "id": "rx_1781464094845",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40mg",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Glycomet 500mg",
+        "composition": "Metformin 500mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10mg",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Ecosprin 75mg",
+        "composition": "Aspirin 75mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-14T19:08:14.845Z"
+  },
+  {
+    "id": "rx_1781450958797",
+    "userId": "user_priya_001",
+    "imageUrl": "",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Glycomet 500",
+        "composition": "Metformin 500mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-14T15:29:18.797Z"
+  },
+  {
+    "id": "rx_moms_bp_001",
+    "userId": "user_priya_001",
+    "imageUrl": "/docs/mom_bp_prescription.png",
+    "extractedMedicines": [
+      {
+        "name": "Telma 40",
+        "composition": "Telmisartan 40mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Glycomet 500",
+        "composition": "Metformin 500mg",
+        "confidence": "high"
+      },
+      {
+        "name": "Atorlip 10",
+        "composition": "Atorvastatin 10mg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-02T10:00:00.000Z"
+  },
+  {
+    "id": "rx_dads_thyroid_001",
+    "userId": "user_priya_001",
+    "imageUrl": "/docs/dad_thyroid_prescription.png",
+    "extractedMedicines": [
+      {
+        "name": "Thyronorm 50",
+        "composition": "Thyroxine Sodium 50mcg",
+        "confidence": "high"
+      }
+    ],
+    "uploadedAt": "2026-06-10T10:00:00.000Z"
+  }
+]

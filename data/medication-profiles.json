@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mp_moms_bp",
+    "userId": "user_priya_001",
+    "name": "Mom's BP meds",
+    "medicines": [
+      {
+        "name": "Telma 40",
+        "composition": "Telmisartan 40mg",
+        "lastOrderedProductId": "prod_telma_40"
+      },
+      {
+        "name": "Glycomet 500",
+        "composition": "Metformin 500mg",
+        "lastOrderedProductId": "prod_glycomet_500"
+      },
+      {
+        "name": "Atorlip 10",
+        "composition": "Atorvastatin 10mg",
+        "lastOrderedProductId": "prod_atorlip_10"
+      }
+    ],
+    "prescriptionId": "rx_moms_bp_001",
+    "createdAt": "2026-06-02T10:00:00.000Z",
+    "lastOrderedAt": "2026-06-15T14:21:19.630Z"
+  },
+  {
+    "id": "mp_dads_thyroid",
+    "userId": "user_priya_001",
+    "name": "Dad's thyroid",
+    "medicines": [
+      {
+        "name": "Thyronorm 50",
+        "composition": "Thyroxine Sodium 50mcg",
+        "lastOrderedProductId": "prod_thyronorm_50"
+      }
+    ],
+    "prescriptionId": "rx_dads_thyroid_001",
+    "createdAt": "2026-06-10T10:00:00.000Z",
+    "lastOrderedAt": "2026-06-14T19:20:53.036Z"
+  }
+]

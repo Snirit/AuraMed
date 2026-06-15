@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "bp-heart",
+    "name": "BP & Heart",
+    "iconUrl": "heart"
+  },
+  {
+    "slug": "diabetes",
+    "name": "Diabetes Care",
+    "iconUrl": "droplet"
+  },
+  {
+    "slug": "cold-cough",
+    "name": "Cold & Cough",
+    "iconUrl": "wind"
+  },
+  {
+    "slug": "vitamins",
+    "name": "Vitamins & Supplements",
+    "iconUrl": "zap"
+  },
+  {
+    "slug": "pain-relief",
+    "name": "Pain Relief",
+    "iconUrl": "activity"
+  },
+  {
+    "slug": "stomach",
+    "name": "Stomach & Digestion",
+    "iconUrl": "shield"
+  },
+  {
+    "slug": "eye-care",
+    "name": "Eye Care",
+    "iconUrl": "eye"
+  },
+  {
+    "slug": "derma",
+    "name": "Skin & Hair",
+    "iconUrl": "sparkles"
+  },
+  {
+    "slug": "baby-care",
+    "name": "Baby Care",
+    "iconUrl": "baby"
+  },
+  {
+    "slug": "devices",
+    "name": "Devices & Apparatuses",
+    "iconUrl": "stethoscope"
+  }
+]

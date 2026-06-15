@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user_priya_001",
+    "name": "Priya",
+    "phone": "+91 98765 43210",
+    "defaultAddressId": "addr_bangalore_001",
+    "addresses": [
+      {
+        "id": "addr_bangalore_001",
+        "label": "Home (Bangalore)",
+        "line1": "A-211, Majestic Residency",
+        "line2": "Koramangala 4th Block",
+        "city": "Bangalore",
+        "pincode": "560034"
+      },
+      {
+        "id": "addr_pune_002",
+        "label": "Parents' Home (Pune)",
+        "line1": "Flat 402, Shanti Vihar",
+        "line2": "Aundh Road",
+        "city": "Pune",
+        "pincode": "411007"
+      }
+    ]
+  }
+]
